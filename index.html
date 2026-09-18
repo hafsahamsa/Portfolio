@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hafsa Hamsa — Data Analytics &amp; Engineering</title>
+<meta name="description" content="Portfolio of Hafsa Hamsa, Physical Science undergraduate at the University of Colombo, seeking a data analytics internship.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scroll-progress" aria-hidden="true"><div class="scroll-progress-bar"></div></div>
+
+<div class="noise" aria-hidden="true"></div>
+<div class="bg-orb orb1" aria-hidden="true"><div class="orb-inner"></div></div>
+<div class="bg-orb orb2" aria-hidden="true"><div class="orb-inner"></div></div>
+
+<header class="topbar">
+  <a href="#top" class="wordmark">Hafsa Hamsa</a>
+  <nav>
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+  </nav>
+  <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-photo-wrap reveal r1">
+        <img class="hero-photo" src="profile.jpg" alt="Portrait of Hafsa Hamsa">
+      </div>
+      <p class="hero-role reveal r2">Physical Science undergraduate, University of Colombo</p>
+      <h1 class="reveal r3">Turning raw data into decisions worth making.</h1>
+      <p class="hero-lede reveal r4">
+        I'm a third-year physical science student who spends most of her free time building
+        data pipelines, training models, and asking too many questions of spreadsheets.
+        Currently looking for a data analytics or data engineering internship.
+      </p>
+      <div class="hero-actions reveal r5">
+        <a class="btn-primary" href="mailto:hafsahamsa2855@gmail.com">Email me</a>
+        <a class="btn-text" href="https://github.com/hafsahamsa" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn-text" href="https://linkedin.com/in/hafsa-hamsa-a5a7aa341" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="hero-chart reveal r3" aria-hidden="true">
+      <svg viewBox="0 0 360 220" fill="none">
+        <line x1="20" y1="190" x2="340" y2="190" stroke="currentColor" stroke-opacity="0.15"/>
+        <line x1="20" y1="20" x2="20" y2="190" stroke="currentColor" stroke-opacity="0.15"/>
+        <path class="chart-line" d="M20 165 C 60 175, 80 140, 110 145 S 160 100, 190 105 S 240 60, 270 55 S 320 25, 340 20"
+          stroke="#2E6F6B" stroke-width="3" stroke-linecap="round"/>
+        <circle class="chart-dot" cx="340" cy="20" r="5" fill="#D98E2B"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="intro fade-up" id="about">
+    <p>
+      What draws me most to data is the process of turning complexity into clarity. I enjoy 
+      cleaning and modelling raw data, exploring what it is really telling us, and transforming 
+      messy datasets into reliable information that can support meaningful decisions. I’ve 
+      also developed data pipelines and created dashboards that make insights easier to 
+      understand and act on.
+    </p>
+  </section>
+
+  <section class="work" id="work">
+    <h2>Selected work</h2>
+
+    <article class="project fade-up">
+      <div class="project-meta">
+        <span>Jul – Aug 2026</span>
+        <span>University group project</span>
+      </div>
+      <h3>ReFeed — surplus food redistribution platform</h3>
+      <p>
+        A full-stack web platform connecting surplus food donors — restaurants, hotels,
+        supermarkets — with verified NGOs and charities, built to cut food waste and reduce
+        food insecurity in the communities around them.
+      </p>
+      <ul class="project-points">
+        <li>Built on the MERN stack (MongoDB, Express.js, React, Node.js) with three distinct
+          user roles — Donor, NGO, and Admin — each with its own dashboard and workflow.</li>
+        <li>Shipped real-time food listings, donation request management, and pickup
+          scheduling, so a donation goes from posted to collected without back-and-forth calls.</li>
+        <li>Added an admin analytics dashboard to monitor redistribution activity across the
+          platform — the piece I was most hands-on with.</li>
+      </ul>
+      <div class="project-stack">
+        <span>MongoDB</span><span>Express.js</span><span>React</span><span>Node.js</span>
+      </div>
+      <a class="project-link" href="https://github.com/hafsahamsa" target="_blank" rel="noopener">
+        View on GitHub ↗
+      </a>
+    </article>
+
+    <p class="work-note">
+      More projects — including smaller data and ML notebooks — are on
+      <a href="https://github.com/hafsahamsa" target="_blank" rel="noopener">GitHub</a>.
+    </p>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skill-grid">
+
+      <div class="skill-group fade-up">
+        <h3>Programming</h3>
+        <p>Python, SQL, R, Java, Scala, Bash / Shell scripting</p>
+      </div>
+
+      <div class="skill-group fade-up">
+        <h3>Data analysis &amp; visualization</h3>
+        <p>Pandas, NumPy, Matplotlib, Seaborn, Plotly, Power BI, Tableau, Excel (Pivot Tables, VLOOKUP, Power Query), Google Sheets</p>
+      </div>
+
+      <div class="skill-group fade-up">
+        <h3>Machine learning &amp; AI</h3>
+        <p>Scikit-learn, XGBoost / LightGBM, TensorFlow, Keras, PyTorch, NLP, Computer Vision (OpenCV), model evaluation &amp; tuning, feature engineering</p>
+      </div>
+
+      <div class="skill-group fade-up">
+        <h3>Data engineering</h3>
+        <p>Apache Spark, Apache Kafka, Apache Airflow, dbt, ETL / ELT pipelines, data warehousing, REST APIs, web scraping (BeautifulSoup, Scrapy)</p>
+      </div>
+
+      <div class="skill-group fade-up">
+        <h3>Databases</h3>
+        <p>MySQL, PostgreSQL, SQLite, MongoDB, Microsoft SQL Server, Google BigQuery, Snowflake</p>
+      </div>
+
+      <div class="skill-group fade-up">
+        <h3>Cloud platforms</h3>
+        <p>AWS (S3, EC2, Lambda, Glue, Redshift, SageMaker), Microsoft Azure (Data Factory, Blob Storage, Synapse), Google Cloud Platform (BigQuery, Dataflow), Docker, Git / GitHub</p>
+      </div>
+
+      <div class="skill-group fade-up">
+        <h3>Business intelligence</h3>
+        <p>Dashboard design, KPI reporting, data storytelling, business requirements analysis</p>
+      </div>
+
+      <div class="skill-group fade-up">
+        <h3>Languages spoken</h3>
+        <p>English, Sinhala, Tamil</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <div class="edu-row fade-up">
+      <div>
+        <h3>BSc Physical Science</h3>
+        <p class="edu-sub">University of Colombo · Kollupitiya, Colombo</p>
+      </div>
+      <p class="edu-date">May 2024 — Present</p>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="footer-inner">
+    <h2>Let's talk data.</h2>
+    <p>Open to internships and entry-level roles in data analytics or data engineering.</p>
+    <div class="footer-links">
+      <a href="mailto:hafsahamsa2855@gmail.com">hafsahamsa2855@gmail.com</a>
+      <a href="tel:+94743247417">+94 74 324 7417</a>
+      <a href="https://linkedin.com/in/hafsa-hamsa-a5a7aa341" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/hafsahamsa" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-location">Denipitiya, Sri Lanka</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
